@@ -11,6 +11,9 @@ In this paper, we present three key contributions in the context of task additio
 First, we propose a new metric, $\tau$Jp, which can be shown to have a causal relationship with the negative interference that occurs from arithmetic operations. Second, by introducing regularization during fine-tuning to minimize $\tau$Jp, we significantly reduce the interference between task inferences, thus greatly reducing the need for coefficient adjustments. Third, we demonstrate that $\tau$Jp-based regularization is effective not only in a strict way, but also in more practical ways.
 We believe that these contributions will lead to significant advancements toward the practical application of model-editing techniques using task arithmetic.
 
+## Setup environment
+
+
 ## Download datasets
 Datasets to download:
 1. [Cars](https://www.cv-foundation.org/openaccess/content_iccv_workshops_2013/W19/html/Krause_3D_Object_Representations_2013_ICCV_paper.html)
@@ -21,6 +24,7 @@ Datasets to download:
 6. [RESISC45](https://ieeexplore.ieee.org/abstract/document/7891544?casa_token=ZOFbRb8TSDUAAAAA:83ANrYS19nlCWRtLylfeuqD3akKWlSeGE86H0gTFcQkRlENegFj9Brgt-dSBDl_MUcZiUPpdcljp)
 7. [SUN397](https://link.springer.com/article/10.1007/s11263-014-0748-y)
 8. [SVHN](https://research.google/pubs/reading-digits-in-natural-images-with-unsupervised-feature-learning/)
+9. [ImageNet](https://ieeexplore.ieee.org/document/5206848)
 
 We are using the same datasets as [this repository](https://github.com/mlfoundations/task_vectors).
 
@@ -45,14 +49,7 @@ For Cars, the original download link is broken, so please refer to this [issue](
 [Hiroki Naganuma](https://github.com/Hiroki11x)
 
 ## Citation
-TMLR 2024 [OpenReview](https://openreview.net/forum?id=9YqacugDER&noteId=EHiqw76N8t)
+
 ```
-@misc{yoshida2024understanding,
-      title={Towards Understanding Variants of Invariant Risk Minimization through the Lens of Calibration}, 
-      author={Kotaro Yoshida and Hiroki Naganuma},
-      year={2024},
-      eprint={2401.17541},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
+
 ```
