@@ -44,7 +44,7 @@ For Cars, the original download link is broken, so please refer to this [issue](
 ## Content
 The contents of this repository are based on [Ilharco et al., 2023](https://github.com/mlfoundations/task_vectors) and [Ortiz-Jimenez et al., 2023](https://github.com/gortizji/tangent_task_arithmetic) and share the same structure.
 
-
+<!-- 
 ## Paper Authors
 [Kotaro Yoshida](https://github.com/katoro8989)
 
@@ -59,6 +59,8 @@ The contents of this repository are based on [Ilharco et al., 2023](https://gith
 [Yuki Saito](https://github.com/wildsnowman)
 
 [Hiroki Naganuma](https://github.com/Hiroki11x)
+-->
+
 
 ## Citation
 
