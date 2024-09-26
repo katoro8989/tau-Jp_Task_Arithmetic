@@ -12,7 +12,18 @@ First, we propose a new metric, $\tau$Jp, which can be shown to have a causal re
 We believe that these contributions will lead to significant advancements toward the practical application of model-editing techniques using task arithmetic.
 
 ## Setup environment
-
+Create a virtual environment
+```
+python3 -m venv tau_jp
+```
+Activate the virtual environment
+```
+source tau_jp/bin/activate
+```
+Install the required packages from requirements.txt
+```
+pip install -r requirements.txt
+```
 
 ## Download datasets
 Datasets to download:
@@ -30,21 +41,22 @@ We are using the same datasets as [this repository](https://github.com/mlfoundat
 
 For Cars, the original download link is broken, so please refer to this [issue](https://github.com/pytorch/vision/issues/7545) for a workaround. For DTD, EuroSAT, RESISC45, and SUN397, the datasets need to be manually split after downloading. Please refer to this [issue](https://github.com/mlfoundations/task_vectors/issues/1) for details.
 
-## Avalable IRM variants
-1. [IRMv1](https://arxiv.org/abs/1907.02893)
-2. [Information Bottleneck based IRM (IB-IRM)](https://arxiv.org/abs/2106.06333)
-3. [Pareto IRM (PAIR)](https://arxiv.org/abs/2206.07766)
-4. [IRM Game](https://arxiv.org/abs/2002.04692)
-5. [Bayesian IRM (BIRM)](https://openaccess.thecvf.com/content/CVPR2022/html/Lin_Bayesian_Invariant_Risk_Minimization_CVPR_2022_paper.html)
+## Content
+The contents of this repository are based on [Ilharco et al., 2023](https://github.com/mlfoundations/task_vectors) and [Ortiz-Jimenez et al., 2023](https://github.com/gortizji/tangent_task_arithmetic) and share the same structure.
 
-## Avalable metrics
-1. Accuracy (ACC)
-2. [Expected Calibration Error (ECE)](https://ojs.aaai.org/index.php/AAAI/article/view/9602)
-3. [Adaptive Calibration Error (ACE)](https://scholar.google.com/scholar_url?url=http://openaccess.thecvf.com/content_CVPRW_2019/papers/Uncertainty%2520and%2520Robustness%2520in%2520Deep%2520Visual%2520Learning/Nixon_Measuring_Calibration_in_Deep_Learning_CVPRW_2019_paper.pdf&hl=en&sa=T&oi=gsr-r-ggp&ct=res&cd=0&d=671990448700625194&ei=gmpxZp_PHoaM6rQP65edyAw&scisig=AFWwaebPo7c5vLkDy-hd7muSkvMn)
-4. [Negative Log-Likelihood (NLL)](https://proceedings.neurips.cc/paper/2021/hash/8420d359404024567b5aefda1231af24-Abstract.html)
 
 ## Paper Authors
 [Kotaro Yoshida](https://github.com/katoro8989)
+
+[Yuji Naraki](https://github.com/yujisw)
+
+[Ryosuke Yamaki](https://github.com/Ryosuke-Yamaki)
+
+[Takahumi Horie](https://github.com/NotWeButRun)
+
+[Ryotaro Shimizu]()
+
+[Yuki Saito]()
 
 [Hiroki Naganuma](https://github.com/Hiroki11x)
 
