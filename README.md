@@ -13,20 +13,18 @@ We believe that these contributions will lead to significant advancements toward
 
 ## Download datasets
 Datasets to download:
-1. [Cars]()
-2. [DTD]()
-3. [EuroSAT]()
-4. [MNIST]()
-5. [GTSRB]()
-6. [RESISC45]()
-7. [SUN397]()
-8. [SVHN]()
+1. [Cars](https://www.cv-foundation.org/openaccess/content_iccv_workshops_2013/W19/html/Krause_3D_Object_Representations_2013_ICCV_paper.html)
+2. [DTD](https://openaccess.thecvf.com/content_cvpr_2014/html/Cimpoi_Describing_Textures_in_2014_CVPR_paper.html)
+3. [EuroSAT](https://ieeexplore.ieee.org/abstract/document/8736785)
+4. [MNIST](https://yann.lecun.com/exdb/mnist/)
+5. [GTSRB](https://ieeexplore.ieee.org/abstract/document/6033395?casa_token=MLJHRCUz8OIAAAAA:9ZMwyQ50HzTzmSkEN1_HBYOFNzPazeKICIKKd3t6g-VgtGc5c7U5tphTVEykAsbcViJUXYFr7UcE)
+6. [RESISC45](https://ieeexplore.ieee.org/abstract/document/7891544?casa_token=ZOFbRb8TSDUAAAAA:83ANrYS19nlCWRtLylfeuqD3akKWlSeGE86H0gTFcQkRlENegFj9Brgt-dSBDl_MUcZiUPpdcljp)
+7. [SUN397](https://link.springer.com/article/10.1007/s11263-014-0748-y)
+8. [SVHN](https://research.google/pubs/reading-digits-in-natural-images-with-unsupervised-feature-learning/)
 
-   
-```
-python3 -m domainbed.scripts.download \
-       --data_dir=./domainbed/data
-```
+We are using the same datasets as [this repository](https://github.com/mlfoundations/task_vectors).
+
+For Cars, the original download link is broken, so please refer to this [issue](https://github.com/pytorch/vision/issues/7545) for a workaround. For DTD, EuroSAT, RESISC45, and SUN397, the datasets need to be manually split after downloading. Please refer to this [issue](https://github.com/mlfoundations/task_vectors/issues/1) for details.
 
 ## Avalable IRM variants
 1. [IRMv1](https://arxiv.org/abs/1907.02893)
