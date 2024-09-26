@@ -1,6 +1,8 @@
 # [$\tau$Jp: a Keystone of Enhancing Task Arithmetic]()
 
-<img width="970" alt="Screenshot 2024-06-18 at 20 11 17" src="https://github.com/katoro8989/IRM_Variants_Calibration/assets/107518964/93e63e05-4352-49e6-bbf9-f92396ce0943">
+![](images/addition.png)
+![](images/negation.png)
+
 
 ## Abstract
 Model-editing techniques using task arithmetic have rapidly gained attention and offer the efficient creation of desired models without the need for additional training, simply through arithmetic operations on the weights of pre-trained and fine-tuned models. 
