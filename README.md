@@ -54,9 +54,9 @@ The contents of this repository are based on [Ilharco et al., 2023](https://gith
 
 [Takahumi Horie](https://github.com/NotWeButRun)
 
-[Ryotaro Shimizu]()
+[Ryotaro Shimizu](https://github.com/jchanxtarov)
 
-[Yuki Saito]()
+[Yuki Saito](https://github.com/wildsnowman)
 
 [Hiroki Naganuma](https://github.com/Hiroki11x)
 
