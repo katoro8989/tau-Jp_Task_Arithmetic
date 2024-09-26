@@ -1,15 +1,24 @@
-# [Towards Understanding Variants of Invariant Risk Minimization through the Lens of Calibration](https://arxiv.org/abs/2401.17541)
+# [$\tau$Jp: a Keystone of Enhancing Task Arithmetic]()
 
 <img width="970" alt="Screenshot 2024-06-18 at 20 11 17" src="https://github.com/katoro8989/IRM_Variants_Calibration/assets/107518964/93e63e05-4352-49e6-bbf9-f92396ce0943">
 
 ## Abstract
-Machine learning models traditionally assume that training and test data are independently and identically distributed. However, in real-world applications, the test distribution often differs from training. This problem, known as out-of-distribution (OOD) generalization, challenges conventional models. Invariant Risk Minimization (IRM) emerges as a solution that aims to identify invariant features across different environments to enhance OOD robustness. However, IRM's complexity, particularly its bi-level optimization, has led to the development of various approximate methods. Our study investigates these approximate IRM techniques, using the consistency and variance of calibration across environments as metrics to measure the invariance aimed for by IRM. Calibration, which measures the reliability of model prediction, serves as an indicator of whether models effectively capture environment-invariant features by showing how uniformly over-confident the model remains across varied environments. Through a comparative analysis of datasets with distributional shifts, we observe that Information Bottleneck-based IRM achieves consistent calibration across different environments. This observation suggests that information compression techniques, such as IB, are potentially effective in achieving model invariance. Furthermore, our empirical evidence indicates that models exhibiting consistent calibration across environments are also well-calibrated. This demonstrates that invariance and cross-environment calibration are empirically equivalent. Additionally, we underscore the necessity for a systematic approach to evaluating OOD generalization. This approach should move beyond traditional metrics, such as accuracy and F1 scores, which fail to account for the model’s degree of over-confidence, and instead focus on the nuanced interplay between accuracy, calibration, and model invariance.
+Model-editing techniques using task arithmetic have rapidly gained attention and offer the efficient creation of desired models without the need for additional training, simply through arithmetic operations on the weights of pre-trained and fine-tuned models. 
+However, task arithmetic faces challenges, such as low reproducibility and the high cost associated with adjusting coefficients in the arithmetic operations on model parameters, which have limited its practical success. 
+In this paper, we present three key contributions in the context of task addition and task negation within task arithmetic.
+First, we propose a new metric, $\tau$Jp, which can be shown to have a causal relationship with the negative interference that occurs from arithmetic operations. Second, by introducing regularization during fine-tuning to minimize $\tau$Jp, we significantly reduce the interference between task inferences, thus greatly reducing the need for coefficient adjustments. Third, we demonstrate that $\tau$Jp-based regularization is effective not only in a strict way, but also in more practical ways.
+We believe that these contributions will lead to significant advancements toward the practical application of model-editing techniques using task arithmetic.
 
 ## Download datasets
 Datasets to download:
-1. MNIST (for ColoredMNIST and RotatedMNIST)
-2. PACS
-3. VLCS
+1. [Cars]()
+2. [DTD]()
+3. [EuroSAT]()
+4. [MNIST]()
+5. [GTSRB]()
+6. [RESISC45]()
+7. [SUN397]()
+8. [SVHN]()
 
    
 ```
