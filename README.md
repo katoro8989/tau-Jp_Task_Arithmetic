@@ -5,11 +5,7 @@
 
 
 ## Abstract
-Model-editing techniques using task arithmetic have rapidly gained attention and offer the efficient creation of desired models without the need for additional training, simply through arithmetic operations on the weights of pre-trained and fine-tuned models. 
-However, task arithmetic faces challenges, such as low reproducibility and the high cost associated with adjusting coefficients in the arithmetic operations on model parameters, which have limited its practical success. 
-In this paper, we present three key contributions in the context of task addition and task negation within task arithmetic.
-First, we propose a new metric, $\tau$Jp, which can be shown to have a causal relationship with the negative interference that occurs from arithmetic operations. Second, by introducing regularization during fine-tuning to minimize $\tau$Jp, we significantly reduce the interference between task inferences, thus greatly reducing the need for coefficient adjustments. Third, we demonstrate that $\tau$Jp-based regularization is effective not only in a strict way, but also in more practical ways.
-We believe that these contributions will lead to significant advancements toward the practical application of model-editing techniques using task arithmetic.
+Model-editing techniques using task arithmetic (Ilharco et al., 2022) have rapidly gained attention. Through task arithmetic, simply through arithmetic operations on the weights of pre-trained and fine-tuned models create desired models, such as multi-task models, models with specific tasks unsolvable, or domain-transferred models. However, task arithmetic faces challenges, such as low reproducibility and the high cost associated with adjusting coefficients in the arithmetic operations on model parameters, which have limited its practical success. In this paper, we present three key contributions in the context of task addition and task negation within task arithmetic. First, we propose a new metric called $\tau$Jp which is based on the product of the task vector ($\tau$) and the Jacobian of the pre-trained model with respect to its weights. We show that $\tau$Jp has a causal relationship with the interference that occurs from arithmetic operations. Second, we show that introducing regularization to minimize $\tau$Jp significantly mitigates interference between task inferences, which leads to eliminating coefficient tuning and better accuracy on each task. Third, in the context of continual learning, we confirmed that our $\tau$Jp regularization demonstrates more robust performance in environments where future tasks to be learned are not accessible, confirming the scalability of the approach. Finally, we demonstrate that the $\tau$Jp regularizer further reinforces the performance of task arithmetic by leveraging publicly available fine-tuned models, offering practical benefits for real-world applications.
 
 ## Setup environment
 Create a virtual environment
@@ -59,7 +55,7 @@ The contents of this repository are based on [Ilharco et al., 2023](https://gith
 [Yuki Saito](https://github.com/wildsnowman)
 
 [Hiroki Naganuma](https://github.com/Hiroki11x)
--->
+
 
 
 ## Citation
@@ -67,3 +63,4 @@ The contents of this repository are based on [Ilharco et al., 2023](https://gith
 ```
 
 ```
+-->
