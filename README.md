@@ -1,7 +1,5 @@
 # [$\tau$Jp: a Keystone of Enhancing Task Arithmetic]()
 
-![](images/addition.png)
-![](images/negation.png)
 
 
 ## Abstract
