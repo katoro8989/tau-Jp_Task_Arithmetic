@@ -1,6 +1,6 @@
 # [Mastering Task Arithmetic:\\ $\tau$Jp as a Key Indicator for Weight Disentanglement]()
 
-![](images/addition.png)
+![](images/addition.png) \\
 ![](images/negation.png)
 
 
