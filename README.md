@@ -1,4 +1,4 @@
-# [$\tau$Jp: a Keystone of Enhancing Task Arithmetic]()
+# [Mastering Task Arithmetic:\\ $\tau$Jp as a Key Indicator for Weight Disentanglement]()
 
 ![](images/addition.png)
 ![](images/negation.png)
