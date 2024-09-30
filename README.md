@@ -1,6 +1,8 @@
 # [Mastering Task Arithmetic:\\ $\tau$Jp as a Key Indicator for Weight Disentanglement]()
 
-![](images/addition.png) \\
+Task Addition
+![](images/addition.png) \
+Task Negation
 ![](images/negation.png)
 
 
@@ -39,6 +41,17 @@ For Cars, the original download link is broken, so please refer to this [issue](
 
 ## Content
 The contents of this repository are based on [Ilharco et al., 2023](https://github.com/mlfoundations/task_vectors) and [Ortiz-Jimenez et al., 2023](https://github.com/gortizji/tangent_task_arithmetic) and share the same structure.
+
+### Training 
+with our strict reguralizer
+```
+python src/finetune_reg_strict.py --finetuning-mode=linear --model=ViT-B-32 --world-size=2 # Finetune non-linearly on 2 GPUs
+```
+
+with our cyclycal reguralizer
+```
+python src/finetune_reg_efficient.py --finetuning-mode=linear --model=ViT-B-32 --world-size=2 # Finetune non-linearly on 2 GPUs
+```
 
 <!-- 
 ## Paper Authors
