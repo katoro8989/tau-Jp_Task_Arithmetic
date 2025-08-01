@@ -289,8 +289,6 @@ if __name__ == "__main__":
     }
 
     for dataset in train_datasets:
-        if dataset != "SVHN":
-            continue
         args = parse_arguments()
 
         args.lr = 1e-5
