@@ -1,14 +1,5 @@
 # [Mastering Task Arithmetic: τJp as a Key Indicator for Weight Disentanglement]()
 
-Task Addition
-
-![](images/addition.png)
-
-Task Negation
-
-![](images/negation.png)
-
-
 ## Abstract
 Model-editing techniques using task arithmetic (Ilharco et al., 2022) have rapidly gained attention. Through task arithmetic, simply through arithmetic operations on the weights of pre-trained and fine-tuned models create desired models, such as multi-task models, models with specific tasks unsolvable, or domain-transferred models. However, task arithmetic faces challenges, such as low reproducibility and the high cost associated with adjusting coefficients in the arithmetic operations on model parameters, which have limited its practical success. In this paper, we present three key contributions in the context of task addition and task negation within task arithmetic. First, we propose a new metric called $\tau$Jp which is based on the product of the task vector ($\tau$) and the Jacobian of the pre-trained model with respect to its weights. We show that $\tau$Jp has a causal relationship with the interference that occurs from arithmetic operations. Second, we show that introducing regularization to minimize $\tau$Jp significantly mitigates interference between task inferences, which leads to eliminating coefficient tuning and better accuracy on each task. Third, in the context of continual learning, we confirmed that our $\tau$Jp regularization demonstrates more robust performance in environments where future tasks to be learned are not accessible, confirming the scalability of the approach. Finally, we demonstrate that the $\tau$Jp regularizer further reinforces the performance of task arithmetic by leveraging publicly available fine-tuned models, offering practical benefits for real-world applications.
 
