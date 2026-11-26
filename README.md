@@ -1,4 +1,4 @@
-# [Mastering Task Arithmetic:\\ $\tau$Jp as a Key Indicator for Weight Disentanglement]()
+# [Mastering Task Arithmetic: τJp as a Key Indicator for Weight Disentanglement]()
 
 Task Addition
 
